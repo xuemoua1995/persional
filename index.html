@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<!-- start html tag -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="nuhost responsive HTML & WHMCS hosting template"
+    />
+    <meta name="author" content="coodiv.net (nedjai mohamed)" />
+    <link rel="icon" href="img/header/favicon.ico" />
+
+    <title>Persional - Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+
+    <!-- flaticon styles -->
+    <link href="icons/flaticon.css" rel="stylesheet" />
+
+    <!-- flaticon styles -->
+    <link href="icons-t/flaticon.css" rel="stylesheet" />
+
+    <!-- main template styles -->
+    <link href="css/main.css" rel="stylesheet" />
+
+    <!-- bootstrap offcanvas styles -->
+    <link href="css/bootstrap.offcanvas.min.css" rel="stylesheet" />
+
+    <!-- fontawesome styles -->
+    <link href="css/fontawesome-all.min.css" rel="stylesheet" />
+
+    <!-- animate styles -->
+    <link href="css/animate.css" rel="stylesheet" />
+
+    <!-- responsive template styles -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:300,400,700"
+      rel="stylesheet"
+    />
+    <!-- Nunito font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700"
+      rel="stylesheet"
+    />
+    <!-- Montserrat font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700"
+      rel="stylesheet"
+    />
+    <!-- Heebo font -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico"
+      rel="stylesheet"
+    />
+
+    <!-- flickity Stylesheets -->
+    <link rel="stylesheet" href="css/flickity.min.css" />
+
+    <!-- video modal -->
+    <link rel="stylesheet" href="css/modal-video.min.css" />
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="owlcarousel/assets/owl.theme.default.min.css"
+    />
+
+    <!-- technology icon Stylesheets -->
+    <link rel="stylesheet" href="technology-icon/flaticon.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(function () {
+        $("#header1").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- start body tag -->
+
+    <!-- start modal video -->
+    <div
+      class="modal fade"
+      id="videomodal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="videomodal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" id="video"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal video -->
+
+    <!-- start preloader -->
+    <div class="preloader">
+      <svg
+        class="spinner"
+        id="pageloader_anime"
+        width="32px"
+        height="32px"
+        viewBox="0 0 66 66"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          class="path"
+          fill="none"
+          stroke-width="6"
+          stroke-linecap="round"
+          cx="33"
+          cy="33"
+          r="30"
+        ></circle>
+      </svg>
+    </div>
+    <!-- end preloader -->
+
+    <!-- start header -->
+    <div id="header">
+    <!-- navbar -->
+      <div id="header1"></div>
+
+      <div class="header-heeadline">
+        <!-- start main header domain search -->
+        <div class="outliner-middl-ha">
+          <h5>
+            <span class="blok-on-phon">we give the word best</span>
+            <span id="typed"></span>
+          </h5>
+          <!-- main header domain search title -->
+          <p>We make sure your website is fast, secure & always up</p>
+          <!-- main header domain search text -->
+
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <form
+                action="domain-results.html"
+                id="domain-search"
+                class="wow fadeIn"
+                data-wow-delay="0.5s"
+              >
+                <!-- main header domain search form -->
+                <span class="space-men"></span>
+                <input
+                  id="domain-text"
+                  type="text"
+                  name="domain"
+                  placeholder="Write your domain name here.."
+                /><!-- search input -->
+                <span class="inline-button">
+                  <button
+                    id="search-btn"
+                    type="submit"
+                    name="submit"
+                    value="Search"
+                  >
+                    <img src="img/svgs/search.svg" alt="search icon" /></button
+                  ><!-- search button -->
+                </span>
+
+                <div class="domain-price-header mr-auto">
+                  <a>
+                    <img
+                      src="img/domain/com.png"
+                      alt="domain"
+                    /><!-- domain name -->
+                    <span>$14.99</span
+                    ><!-- domain price -->
+                  </a>
+
+                  <a>
+                    <img
+                      src="img/domain/net.png"
+                      alt="domain"
+                    /><!-- domain name -->
+                    <span>$9.99</span
+                    ><!-- domain price -->
+                  </a>
+
+                  <a>
+                    <img
+                      src="img/domain/org.png"
+                      alt="domain"
+                    /><!-- domain name -->
+                    <span>$0.99</span
+                    ><!-- domain price -->
+                  </a>
+
+                  <a class="no-phon-dsply">
+                    <img
+                      src="img/domain/store.png"
+                      alt="domain"
+                    /><!-- domain name -->
+                    <span>$8.99</span
+                    ><!-- domain price -->
+                  </a>
+                </div>
+              </form>
+              <!-- end main header domain search form -->
+            </div>
+            <!-- end col -->
+          </div>
+          <!-- end row -->
+        </div>
+      </div>
+      <!-- end main header domain search -->
+    </div>
+    <!-- end header -->
+
+    <section class="first-items-home">
+      <!-- start our features section -->
+      <div class="container">
+        <!-- start container -->
+        <div class="row justify-content-left">
+          <!-- row -->
+          <div class="col-md-4 item-icons">
+            <!-- features box -->
+            <span class="free-badje">free</span
+            ><!-- free badge -->
+            <span class="nomber-overlow"><b>01</b></span>
+            <i class="icon flaticon-bug color-1"></i
+            ><!-- icon -->
+            <h5>Full Security Team</h5>
+            <!-- title -->
+            <p>
+              Solution is an easy to use tool all very easy! eCommerce. With the
+              help of our system you can present.
+            </p>
+            <!-- text -->
+            <div class="badje-link-footer">
+              <a href="#"
+                >see more <i class="far fa-arrow-alt-circle-right"></i>
+              </a>
+            </div>
+            <!-- button -->
+          </div>
+          <!-- end features box -->
+
+          <div class="col-md-4 item-icons">
+            <!-- features box -->
+            <span class="nomber-overlow"><b>02</b></span>
+            <i class="icon flaticon-chip color-2"></i
+            ><!-- icon -->
+            <h5>Analytics</h5>
+            <!-- title -->
+            <p>
+              Solution is an easy to use tool all very easy! eCommerce. With the
+              help of our system you can present.
+            </p>
+            <!-- text -->
+            <div class="badje-link-footer">
+              <a href="#"
+                >see more <i class="far fa-arrow-alt-circle-right"></i>
+              </a>
+            </div>
+            <!-- button -->
+          </div>
+          <!-- end features box -->
+
+          <div class="col-md-4 item-icons">
+            <!-- features box -->
+            <span class="nomber-overlow"><b>03</b></span>
+            <i class="icon flaticon-063-flashlight color-3"></i
+            ><!-- icon -->
+            <h5>Analytics</h5>
+            <!-- title -->
+            <p>
+              Solution is an easy to use tool all very easy! eCommerce. With the
+              help of our system you can present.
+            </p>
+            <!-- text -->
+            <div class="badje-link-footer">
+              <a href="#"
+                >see more <i class="far fa-arrow-alt-circle-right"></i>
+              </a>
+            </div>
+            <!-- button -->
+          </div>
+          <!-- end features box -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end our features section -->
+
+    <section class="second-items-home">
+      <!-- first hosting plans style -->
+      <div class="container">
+        <!-- start container -->
+        <div class="tittle-simple-one">
+          <!-- start title -->
+          <h5>
+            Chose your best pricing plan<span
+              >you want custom hosting plan.<br />
+              No hidden charge.</span
+            >
+          </h5>
+        </div>
+        <!-- end title -->
+
+        <div class="row justify-content-center">
+          <!-- row -->
+          <div class="col-md-3">
+            <!-- col -->
+            <div class="pricing-plan-one">
+              <!-- start pricing table -->
+              <span class="box-overlow-cari"></span>
+              <h5 class="title-plan">
+                <span>start building your empire</span> basic
+              </h5>
+              <div class="price-palan">
+                <span><i>$</i>75<b>/monthly</b></span>
+              </div>
+              <ul class="body-plan">
+                <li><b>100 MB</b> Disk Space</li>
+                <li><b>Unlimited</b> Bandwith</li>
+                <li><b>standard</b> performance</li>
+                <li>free <b>SSL</b> Certificate</li>
+                <li>free <b>Domain</b></li>
+              </ul>
+              <div class="purshase-plan">
+                <a href="#">purshase</a
+                ><!-- button -->
+              </div>
+            </div>
+            <!-- end pricing table -->
+          </div>
+          <!-- end col -->
+
+          <div class="col-md-3">
+            <!-- col -->
+            <div class="pricing-plan-one spceale-plan">
+              <!-- start pricing table -->
+              <span class="best-selle-tag-plan"><b>best selle</b></span>
+              <span class="box-overlow-cari"></span>
+              <h5 class="title-plan">
+                <span>start building your empire</span> basic
+              </h5>
+              <div class="price-palan">
+                <span><i>$</i>75<b>/monthly</b></span>
+              </div>
+              <ul class="body-plan">
+                <li><b>100 MB</b> Disk Space</li>
+                <li><b>Unlimited</b> Bandwith</li>
+                <li><b>standard</b> performance</li>
+                <li>free <b>SSL</b> Certificate</li>
+                <li>free <b>Domain</b></li>
+              </ul>
+              <div class="purshase-plan">
+                <a href="#">purshase</a
+                ><!-- button -->
+              </div>
+            </div>
+            <!-- end pricing table -->
+          </div>
+          <!-- end col -->
+
+          <div class="col-md-3">
+            <!-- col -->
+            <div class="pricing-plan-one">
+              <!-- start pricing table -->
+              <span class="box-overlow-cari"></span>
+              <h5 class="title-plan">
+                <span>start building your empire</span> basic
+              </h5>
+              <div class="price-palan">
+                <span><i>$</i>75<b>/monthly</b></span>
+              </div>
+              <ul class="body-plan">
+                <li><b>100 MB</b> Disk Space</li>
+                <li><b>Unlimited</b> Bandwith</li>
+                <li><b>standard</b> performance</li>
+                <li>free <b>SSL</b> Certificate</li>
+                <li>free <b>Domain</b></li>
+              </ul>
+              <div class="purshase-plan">
+                <a href="#">purshase</a
+                ><!-- button -->
+              </div>
+            </div>
+            <!-- end pricing table -->
+          </div>
+          <!-- end col -->
+        </div>
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end hosting plans style -->
+
+    <section class="our-pertners">
+      <!-- starts our pertners section -->
+      <div class="container">
+        <!-- CONTAINER -->
+        <h2 class="d-none">our pertners</h2>
+        <div class="owl-carousel pertners-carousel owl-theme">
+          <!-- start owl carousel -->
+          <div class="item">
+            <!-- start item -->
+            <a href="#"> <img src="img/pertners/logo1.png" alt="" /> </a>
+          </div>
+          <!-- end item -->
+
+          <div class="item">
+            <!-- start item -->
+            <a href="#"> <img src="img/pertners/logo2.png" alt="" /> </a>
+          </div>
+          <!-- end item -->
+
+          <div class="item">
+            <!-- start item -->
+            <a href="#"> <img src="img/pertners/logo3.png" alt="" /> </a>
+          </div>
+          <!-- end item -->
+
+          <div class="item">
+            <!-- start item -->
+            <a href="#"> <img src="img/pertners/logo4.png" alt="" /> </a>
+          </div>
+          <!-- end item -->
+
+          <div class="item">
+            <!-- start item -->
+            <a href="#"> <img src="img/pertners/logo5.png" alt="" /> </a>
+          </div>
+          <!-- end item -->
+
+          <div class="item">
+            <!-- start item -->
+            <a href="#"> <img src="img/pertners/logo1.png" alt="" /> </a>
+          </div>
+          <!-- end item -->
+
+          <div class="item">
+            <!-- start item -->
+            <a href="#"> <img src="img/pertners/logo2.png" alt="" /> </a>
+          </div>
+          <!-- end item -->
+
+          <div class="item">
+            <!-- start item -->
+            <a href="#"> <img src="img/pertners/logo3.png" alt="" /> </a>
+          </div>
+          <!-- end item -->
+
+          <div class="item">
+            <!-- start item -->
+            <a href="#"> <img src="img/pertners/logo4.png" alt="" /> </a>
+          </div>
+          <!-- end item -->
+
+          <div class="item">
+            <!-- start item -->
+            <a href="#"> <img src="img/pertners/logo5.png" alt="" /> </a>
+          </div>
+          <!-- end item -->
+        </div>
+        <!-- end owl carousel -->
+      </div>
+      <!-- end CONTAINER -->
+    </section>
+    <!-- end our pertners section -->
+
+    <section
+      class="perlex-efect-section parallax-window"
+      data-parallax="scroll"
+      data-image-src="img/demo/bg.jpeg"
+    >
+      <!-- start parallax section -->
+      <span class="perlex-hidden-iverlow"></span>
+      <div class="container">
+        <!-- start container -->
+        <div class="row justify-content-left">
+          <!-- start row -->
+          <div class="col-md-5">
+            <div class="video-section-text-place">
+              <span class="over-ole-grandient-orl"></span>
+              <h5>Chose your best pricing plan</h5>
+              <!-- title -->
+              <span class="post-category">hosting</span>
+              <span class="post-date">19 march 2018</span
+              ><!-- category -->
+              <p>
+                Solution is an easy to use tool all very easy! eCommerce. With
+                the help of our system you can present.
+              </p>
+              <!-- text -->
+              <a href="#">read more</a
+              ><!-- link -->
+            </div>
+          </div>
+
+          <div class="col-md-7 video-section-play-place">
+            <!-- video popup link -->
+            <a
+              class="video-btn"
+              data-toggle="modal"
+              data-src="https://player.vimeo.com/video/58385453?badge=0"
+              data-target="#videomodal"
+              href="#"
+              ><i class="fas fa-play"></i>
+              <span class="first-text"><b>play</b> video</span>
+              <span class="second-text"><b>click</b> here</span></a
+            >
+          </div>
+          <!-- end popup link -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end parallax section -->
+
+    <section class="our-sevices-section">
+      <!-- start our full secvices -->
+      <div class="container">
+        <div class="tittle-simple-one">
+          <!-- start title -->
+          <h5>
+            Chose your best pricing plan<span
+              >you want custom hosting plan.<br />
+              No hidden charge.</span
+            >
+          </h5>
+        </div>
+        <!-- end title -->
+      </div>
+      <!-- end container -->
+
+      <ul id="oursevices" class="carousel carousel-nav-services">
+        <!-- our full secvices links -->
+
+        <li class="carousel-cell">
+          <!-- start item -->
+          <a class="nav-link">
+            <i class="flaticon-063-atomic"></i>
+            <span class="title-tabs-of">Domains</span
+            ><!-- title -->
+          </a>
+        </li>
+        <!-- end item -->
+
+        <li class="carousel-cell">
+          <!-- start item -->
+          <a class="nav-link">
+            <i class="flaticon-063-circuit"></i>
+            <span class="title-tabs-of">web hosting</span
+            ><!-- title -->
+          </a>
+        </li>
+        <!-- end item -->
+
+        <li class="carousel-cell">
+          <!-- start item -->
+          <a class="nav-link">
+            <i class="flaticon-063-smartphone"></i>
+            <span class="title-tabs-of">resslers</span
+            ><!-- title -->
+          </a>
+        </li>
+        <!-- end item -->
+
+        <li class="carousel-cell">
+          <!-- start item -->
+          <a class="nav-link">
+            <i class="flaticon-063-ufo"></i>
+            <span class="title-tabs-of">support</span
+            ><!-- title -->
+          </a>
+        </li>
+        <!-- end item -->
+
+        <li class="carousel-cell">
+          <!-- start item -->
+          <a class="nav-link">
+            <i class="flaticon-063-test-tube"></i>
+            <span class="title-tabs-of">cloud hosting</span
+            ><!-- title -->
+          </a>
+        </li>
+        <!-- end item -->
+      </ul>
+      <!-- end our full secvices links -->
+
+      <div class="carousel carousel-main-services">
+        <!-- tabs show -->
+        <div class="carousel-cell">
+          <!-- item -->
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-8 text-tab-content-algo text-center">
+                <div class="text-absoo">
+                  <h5>Shared Web Hosting is your next powerful thing.</h5>
+                  <!-- title -->
+                  <p>
+                    With our one click installer tool, available on every Web
+                    Hosting plan, you can create any type of website: blog,
+                    forum, CMS, wiki, photo gallery, E-commerce store, and so
+                    much more! No more thinking for databases, downloading and
+                    uploading script files on your own, and other technical
+                    work.
+                  </p>
+                  <!-- text -->
+                  <a href="#">GET STARTED NOW</a
+                  ><!-- link -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end item -->
+
+        <div class="carousel-cell">
+          <!-- item -->
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-5">
+                <img src="img/demo/server.jpeg" alt="" />
+              </div>
+              <div class="col-md-6 text-tab-content-algo">
+                <div class="text-absoo">
+                  <h5>Shared Web Hosting is your next powerful thing.</h5>
+                  <!-- title -->
+                  <p>
+                    With our one click installer tool, available on every Web
+                    Hosting plan, you can create any type of website: blog,
+                    forum, CMS, wiki, photo gallery, E-commerce store, and so
+                    much more! No more thinking for databases, downloading and
+                    uploading script files on your own, and other technical
+                    work.
+                  </p>
+                  <!-- text -->
+                  <a href="#">GET STARTED NOW</a
+                  ><!-- link -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end item -->
+
+        <div class="carousel-cell">
+          <!-- item -->
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-5 text-tab-content-algo">
+                <div class="text-absoo">
+                  <h5>Shared Web Hosting is your next powerful thing.</h5>
+                  <!-- title -->
+                  <p>
+                    With our one click installer tool, available on every Web
+                    Hosting plan, you can create any type of website: blog,
+                    forum, CMS, wiki, photo gallery, E-commerce store, and so
+                    much more! No more thinking for databases, downloading and
+                    uploading script files on your own, and other technical
+                    work.
+                  </p>
+                  <!-- text -->
+                  <a href="#">GET STARTED NOW</a
+                  ><!-- link -->
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <img src="img/demo/server.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end item -->
+
+        <div class="carousel-cell">
+          <!-- item -->
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-5">
+                <img src="img/demo/server.jpeg" alt="" />
+              </div>
+              <div class="col-md-6 text-tab-content-algo">
+                <div class="text-absoo">
+                  <h5>Shared Web Hosting is your next powerful thing.</h5>
+                  <!-- title -->
+                  <p>
+                    With our one click installer tool, available on every Web
+                    Hosting plan, you can create any type of website: blog,
+                    forum, CMS, wiki, photo gallery, E-commerce store, and so
+                    much more! No more thinking for databases, downloading and
+                    uploading script files on your own, and other technical
+                    work.
+                  </p>
+                  <!-- text -->
+                  <a href="#">GET STARTED NOW</a
+                  ><!-- link -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end item -->
+
+        <div class="carousel-cell">
+          <!-- item -->
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-5 text-tab-content-algo">
+                <div class="text-absoo">
+                  <h5>Shared Web Hosting is your next powerful thing.</h5>
+                  <!-- title -->
+                  <p>
+                    With our one click installer tool, available on every Web
+                    Hosting plan, you can create any type of website: blog,
+                    forum, CMS, wiki, photo gallery, E-commerce store, and so
+                    much more! No more thinking for databases, downloading and
+                    uploading script files on your own, and other technical
+                    work.
+                  </p>
+                  <!-- text -->
+                  <a href="#">GET STARTED NOW</a
+                  ><!-- link -->
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <img src="img/demo/server.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end item -->
+      </div>
+      <!-- end tabs show -->
+    </section>
+    <!-- end our full secvices -->
+
+    <section class="counter-section">
+      <!-- start counter section -->
+      <div class="container">
+        <div class="counter-middle-icon">
+          <span class="icon-counter-sid"
+            ><i class="flaticon-063-molecules-1"></i></span
+          ><!-- icon -->
+          <h2 class="icon-counter-sid-title">our company <b>funny facts</b></h2>
+          <!-- title -->
+        </div>
+        <div class="row justify-content-center">
+          <!-- row -->
+          <div class="col-md-4 counter-number-tibo">
+            <i class="flaticon-database-8"></i>
+            <span><small class="counter">99.99</small>%</span>
+            <b>off our server working now</b>
+          </div>
+          <!-- counter -->
+          <div class="col-md-4 counter-number-tibo pad-top-190">
+            <i class="flaticon-plug"></i
+            ><span> <small class="counter">122</small></span
+            ><b>new website this week</b>
+          </div>
+          <!-- counter -->
+          <div class="col-md-4 counter-number-tibo">
+            <i class="flaticon-shield-5"></i
+            ><span> <small class="counter">973.07</small>$</span>
+            <b>checkout this day</b>
+          </div>
+          <!-- counter -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end counter section -->
+
+    <section class="server-place-section">
+      <!-- start our servers place section -->
+      <div class="container zindextow">
+        <!-- start container -->
+        <div class="row justify-content-center">
+          <!-- start row -->
+          <div class="col-md-5 row justify-content-center text-reve-map-place">
+            <div class="col-md-6">
+              <h5>brazil</h5>
+              <!-- title -->
+              <p><span>address</span> tchuk slov 133, contral park,brazil</p>
+              <!-- address -->
+              <p>
+                <span>phone</span>00213 123-45-67-89
+                <!-- phones -->
+                <br />00213 123-45-67-89
+              </p>
+              <!-- phones -->
+              <p><span>email</span> support@coodiv.net</p>
+              <!-- email -->
+            </div>
+
+            <div class="col-md-6">
+              <h5>paris</h5>
+              <!-- title -->
+              <p><span>address</span> tchuk slov 133, contral park,paris</p>
+              <!-- address -->
+              <p>
+                <span>phone</span>00213 123-45-67-89
+                <!-- phones -->
+                <br />00213 123-45-67-89
+              </p>
+              <!-- phones -->
+              <p><span>email</span> support@coodiv.net</p>
+              <!-- email -->
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <!-- col -->
+            <div class="map-gene-server-place">
+              <!-- start map place -->
+              <img src="img/map/map-world.png" alt="" /><!-- map -->
+              <span
+                data-toggle="tooltip"
+                data-placement="top"
+                title="brazil"
+                style="top: 68%; left: 33%"
+                class="place"
+              ></span>
+              <span
+                data-toggle="tooltip"
+                data-placement="top"
+                title="paris"
+                style="top: 35%; left: 47%"
+                class="place"
+              ></span>
+            </div>
+            <!-- end map place -->
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end our servers place section -->
+
+    <section class="blog-home-section">
+      <!-- start blog section -->
+      <div class="container">
+        <!-- start container -->
+
+        <div class="tittle-simple-one">
+          <h5>
+            The latest news in our blog<span
+              >Lorem Ipsum Dolor Sit Amet Lorem<br />
+              Lorem Ipsum Dolor.</span
+            >
+          </h5>
+        </div>
+        <!-- title -->
+
+        <div class="row justify-content-center blog-items-home">
+          <!-- start row -->
+
+          <div class="col-md-4">
+            <!-- col -->
+            <div class="home-blog-te">
+              <!-- blog container -->
+              <div
+                class="post-thumbn parallax-window"
+                style="background: url(img/blog/blog4.png) no-repeat center"
+              ></div>
+              <!-- post thumbnail -->
+              <div class="post-bodyn">
+                <h5><a href="#">Up and Running With WooCommerce</a></h5>
+                <!-- post title -->
+                <p><i class="far fa-calendar"></i>Mars 02,2018</p>
+                <!-- post date -->
+              </div>
+            </div>
+            <!-- end blog container -->
+          </div>
+          <!-- end col -->
+
+          <div class="col-md-4">
+            <!-- col -->
+            <div class="home-blog-te">
+              <!-- blog container -->
+              <div
+                class="post-thumbn parallax-window"
+                style="background: url(img/blog/blog3.png) no-repeat center"
+              ></div>
+              <!-- post thumbnail -->
+              <div class="post-bodyn">
+                <h5><a href="#">Up and Running With WooCommerce</a></h5>
+                <!-- post title -->
+                <p><i class="far fa-calendar"></i>Mars 02,2018</p>
+                <!-- post date -->
+              </div>
+            </div>
+            <!-- end blog container -->
+          </div>
+          <!-- end col -->
+
+          <div class="col-md-4">
+            <!-- col -->
+            <div class="home-blog-te">
+              <!-- blog container -->
+              <div
+                class="post-thumbn parallax-window"
+                style="background: url(img/blog/blog2.png) no-repeat center"
+              ></div>
+              <!-- post thumbnail -->
+              <div class="post-bodyn">
+                <h5><a href="#">Up and Running With WooCommerce</a></h5>
+                <!-- post title -->
+                <p><i class="far fa-calendar"></i>Mars 02,2018</p>
+                <!-- post date -->
+              </div>
+            </div>
+            <!-- end blog container -->
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end blog section -->
+
+    <section class="form-contact-home-section">
+      <!-- start contact us section -->
+      <div class="container">
+        <!-- start container -->
+        <div class="row justify-content-center">
+          <!-- start row -->
+          <form
+            class="col-md-8 row justify-content-center form-contain-home"
+            id="ajax-contact"
+            method="post"
+            action="mailer.php"
+          >
+            <!-- start form -->
+            <h5>Any Project In Your Mind ?<span>Or Just Say Hello</span></h5>
+            <!-- title -->
+
+            <div id="form-messages"></div>
+            <!-- form message -->
+
+            <div class="col-md-6">
+              <!-- start col -->
+              <div class="field input-field">
+                <input
+                  class="form-contain-home-input"
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                /><!-- input -->
+                <span class="input-group-prepend">entre your name</span
+                ><!-- label -->
+              </div>
+            </div>
+            <!-- end col -->
+
+            <div class="col-md-6">
+              <!-- start col -->
+              <div class="field input-field">
+                <input
+                  class="form-contain-home-input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                /><!-- input -->
+                <span class="input-group-prepend">entre your email</span
+                ><!-- label -->
+              </div>
+            </div>
+            <!-- end col -->
+
+            <div class="col-md-12">
+              <!-- start col -->
+              <div class="field input-field">
+                <textarea
+                  class="form-contain-home-input"
+                  id="message"
+                  name="message"
+                  required
+                ></textarea
+                ><!-- textarea -->
+                <span class="input-group-prepend">entre your message</span
+                ><!-- label -->
+              </div>
+            </div>
+            <!-- end col -->
+
+            <div class="btn-holder-contect">
+              <button type="submit">Send</button
+              ><!-- submit button -->
+            </div>
+          </form>
+          <!-- end form -->
+        </div>
+        <!-- end container -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end contact us section -->
+
+    <!-- footer section -->
+
+    <section id="footer"></section>
+
+    <!------------------- JavaScript ------------------->
+
+    <!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- popper JavaScript -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- waypoints JavaScript -->
+    <script src="js/waypoints.min.js"></script>
+
+    <!-- counterup JavaScript -->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- particles JavaScript -->
+    <script src="js/particles-code.js"></script>
+
+    <!-- typed JavaScript -->
+    <script src="js/typed.js"></script>
+
+    <!-- smoothscroll JavaScript -->
+    <script src="js/smoothscroll.js"></script>
+
+    <!-- carousel JavaScript -->
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- parallax JavaScript -->
+    <script src="js/parallax.min.js"></script>
+
+    <!-- bootstrap offcanvas -->
+    <script src="js/bootstrap.offcanvas.min.js"></script>
+
+    <!-- flickity JavaScript -->
+    <script src="js/flickity.pkgd.min.js"></script>
+
+    <!-- template JavaScript -->
+    <script src="js/scripts.js"></script>
+
+    <!-- mailer JavaScript -->
+    <script src="js/mailer.js"></script>
+
+    <!-- touchSwipe JavaScript -->
+    <script src="js/jquery.touchSwipe.min.js"></script>
+
+    <!-- countdown JavaScript -->
+    <script src="js/jquery.countdown.min.js"></script>
+
+    <!-- modal video JavaScript -->
+    <script src="js/modal-video.min.js"></script>
+
+    <!-- particles JavaScript -->
+    <script src="js/particles.js"></script>
+
+    <!-- filters JavaScript -->
+    <script src="js/mixitup.min.js"></script>
+
+    <!-- video background JavaScript -->
+    <script src="js/video-bg.js"></script>
+    <!------------------- End javaScript ------------------->
+  </body>
+  <!-- end of body tag -->
+</html>
+<!-- end of html tag -->
